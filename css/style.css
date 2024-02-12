@@ -44,6 +44,10 @@ header {
     padding: 0 3.75rem;
 }
 
+header .material-icons {
+    display: none;
+}
+
 header nav {
     position: absolute;
     top: 6.8rem;
@@ -69,6 +73,10 @@ header nav {
 
 .lista-navegacao li a:hover {
     color: var(--hover-laranja);
+}
+
+.lista-navegacao-burger {
+    display: none;
 }
 
 /* Intro */
@@ -394,12 +402,35 @@ footer p {
         padding: 0 4rem;
     }
 
+    header .material-icons {
+        display: block;
+        position: absolute;
+        top: 4rem;
+        right: 4rem;
+    }
+
     header img {
         width: 6rem;
     }
 
     .lista-navegacao {
         display: none;
+    }
+
+    .lista-navegacao-burger {
+        /* display: block; */
+        background-color: var(--bg-footer);
+        padding: .8rem 2rem;
+    }
+
+    .lista-navegacao-burger li {
+        list-style: none;
+        padding: 1rem;
+    }
+
+    .lista-navegacao-burger li a {
+        color: var(--bg-branco);
+        padding: 1rem 12rem 1rem 1rem;
     }
     
     .sobre {

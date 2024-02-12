@@ -4,11 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Barbearia Alura</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <header>
         <img src="img/logo-black.png" alt="logo Barbearia Alura">
+        <i id="menu-hamburger" class="material-icons">menu</i>
         <nav>
             <ul class="lista-navegacao">
                 <li><a href="index.html">HOME</a></li>
@@ -17,6 +19,13 @@
             </ul>
         </nav>
     </header>
+    <nav>
+        <ul id="lista-hamburger" class="lista-navegacao-burger">
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="produtos.html">PRODUTOS</a></li>
+            <li><a href="contato.html">CONTATO</a></li>
+        </ul>
+    </nav>
     <main>
         <section class="intro">
             <img src="img/banner.jpg" alt="Banner Barbearia Alura" />
@@ -61,5 +70,7 @@
         <img src="img/logo-white.png" alt="Logo Barbearia Alura">
         <p>&copy;Copyright Barbearia Alura - 2019</p>
     </footer>
+
+    <script src="js/script.js"></script>
 </body>
 </html>
