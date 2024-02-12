@@ -70,7 +70,6 @@ header nav {
     padding: .8rem;
 }
 
-
 .lista-navegacao li a:hover {
     color: var(--hover-laranja);
 }
@@ -397,6 +396,10 @@ footer p {
     h1 {
         font-size: 1.6rem;
     }
+
+    p {
+        line-height: 22px;
+    }
     
     header {
         padding: 0 4rem;
@@ -418,9 +421,12 @@ footer p {
     }
 
     .lista-navegacao-burger {
-        /* display: block; */
         background-color: var(--bg-footer);
         padding: .8rem 2rem;
+    }
+    
+    .lista-navegacao-burger.active {
+        display: block;
     }
 
     .lista-navegacao-burger li {
@@ -516,13 +522,14 @@ footer p {
     }
 
     .formulario-contato {
-        width: 85%;
+        width: 80%;
         padding: 1.8rem 0;
     }
 
     form fieldset label {
         display: block;
         float: none;
+        padding-right: 200px;
         margin: .4rem;
     }
 
