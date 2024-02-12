@@ -303,7 +303,7 @@ footer p {
     }
 
     .infos-produtos {
-        padding: 0 1rem;
+        padding: 0;
     }
 
     .formulario-contato {
@@ -364,7 +364,7 @@ footer p {
 
     .lista-produtos li {
         width: 29%;
-        padding: 1.2rem .8rem;
+        padding: 1.2rem .5rem;
     }
 
     .lista-produtos li h1 {
