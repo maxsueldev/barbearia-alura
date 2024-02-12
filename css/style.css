@@ -395,7 +395,7 @@ footer p {
     }
 
     header img {
-        width: 4rem;
+        width: 6rem;
     }
 
     .lista-navegacao {
@@ -464,6 +464,14 @@ footer p {
         margin: 1.6rem auto;
     }
 
+    .lista-produtos li:hover {
+        border-color: var(--color-preto);
+    }
+    
+    .lista-produtos li:hover h1 {
+        font-size: 2rem;
+    }
+
     .lista-produtos li h1 {
         font-size: 2rem;
     }
@@ -479,6 +487,17 @@ footer p {
     .formulario-contato {
         width: 85%;
         padding: 1.8rem 0;
+    }
+
+    form fieldset label {
+        display: block;
+        float: none;
+        margin: .4rem;
+    }
+
+    input[type=submit]:hover {
+        transition: 0;
+        background-color: orange;
     }
 
     footer {
