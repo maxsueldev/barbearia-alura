@@ -1,0 +1,5 @@
+INFOS:
+   fonts: Times New Roman
+   backgrounds: #BBBBBB, #FFFFFF, #888888, #1E201F
+   colors: #000000, cinza
+   hover: #C78C19, #FF2600
